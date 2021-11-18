@@ -1,0 +1,4 @@
+body{
+    --fundoCor: green;
+    background-color: var(--fundoCor);
+}
