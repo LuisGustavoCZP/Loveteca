@@ -1,0 +1,20 @@
+[
+    {
+        "category" : "SoftSkills",
+        "language" : "Portugues",
+        "name" : "Rapido e Devagar",
+        "autor" : "",
+        "photo" : "../../../images/livros/rapidoedevagar.jpg",
+        "description" : "",
+        "link" : ""
+    },
+    {
+        "category" : "SoftSkills",
+        "language" : "Portugues",
+        "name" : "Como A Mente Funciona",
+        "autor" : "",
+        "photo" : "../../../images/livros/rapidoedevagar.jpg",
+        "description" : "",
+        "link" : ""
+    }
+]

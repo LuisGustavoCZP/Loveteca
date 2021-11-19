@@ -1,4 +1,128 @@
-body{
-    --fundoCor: green;
-    background-color: var(--fundoCor);
+:root {
+    --icon-src : url("");
+
+    --primaryHue: 180;
+    --titleCor: var(--primaryHue), 64%, 44%;
+    --menuCor: var(--primaryHue), 64%, 65%;
+    --fundoCor: var(--primaryHue), 61%, 86%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colored-icon {
+    --icon-src : url("");
+    --icon-color: black;
+    display:flex;
+    min-width: 100%;
+    padding-top: 100%;
+    background-color: var(--icon-color);
+    -webkit-mask: var(--icon-src) no-repeat center;
+    mask: var(--icon-src) no-repeat center;
+    mask-clip: border-box;
+    mask-size: 100%;
+}
+
+.popup-container {
+    position: relative;
+}
+
+.popup-window {
+    position: absolute;
+    top:0;
+}
+
+.invisivel {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    
+    background-color: hsl(var(--titleCor));
+}
+
+main > nav {
+    display:flex;
+    justify-content: center;
+    
+    background-color: hsl(var(--menuCor));
+}
+
+#categories {
+    width: 300px;
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#categories li {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#categories a {
+    cursor: pointer;
+}
+
+#categories h3 {
+    
+    font-size: 16px;
+    user-select: none;
+}
+
+#categories a > div {
+    margin: auto;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#books{
+    display: flex;
+    flex-grow: 1;
+    background-color: hsl(var(--fundoCor));
+}
+
+#books ul {
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#books a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#books h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#books img {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
 }
