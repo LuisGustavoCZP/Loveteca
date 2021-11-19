@@ -4,7 +4,7 @@
         "language" : "Portugues",
         "name" : "Rapido e Devagar",
         "autor" : "",
-        "photo" : "../../../images/livros/rapidoedevagar.jpg",
+        "photo" : "images/livros/rapidoedevagar.jpg",
         "description" : "",
         "link" : ""
     },
@@ -13,7 +13,7 @@
         "language" : "Portugues",
         "name" : "Como A Mente Funciona",
         "autor" : "",
-        "photo" : "../../../images/livros/comoamentefunciona.jpg",
+        "photo" : "images/livros/comoamentefunciona.jpg",
         "description" : "",
         "link" : ""
     }
